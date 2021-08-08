@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto; /* makes the body non-scrollable (we will add scrolling to the sidebar and main content containers) */
+  margin: 0px; /* removes default style */
+  display: flex;
+  box-sizing: border-box;
+}
